@@ -262,7 +262,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task7.V23
             this.MinimumSize = new System.Drawing.Size(850, 560);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 7 | Вариант 24 | Шананина В.В.";
+            this.Text = "Спринт 6 | Таск 7 | Вариант 24 | Воловиков М. В.";
             this.panelOne_VMV.ResumeLayout(false);
             this.panelTwo_VMV.ResumeLayout(false);
             this.groupBoxUslovie_VMV.ResumeLayout(false);
