@@ -71,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,6 +91,12 @@
       <Project>{a94ceef7-6f56-49f2-873d-07148bebdcee}</Project>
       <Name>Tyuiu.VolovikovMV.Sprint6.Task7.V23.Lib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\папич %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ящясубьювсех-папич.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

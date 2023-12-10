@@ -51,11 +51,12 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task7.V23
             // 
             // pictureBoxAva_VMV
             // 
+            this.pictureBoxAva_VMV.Image = global::Tyuiu.VolovikovMV.Sprint6.Task7.V23.Properties.Resources.ящясубьювсех_папич;
             this.pictureBoxAva_VMV.Location = new System.Drawing.Point(8, 8);
             this.pictureBoxAva_VMV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxAva_VMV.Name = "pictureBoxAva_VMV";
             this.pictureBoxAva_VMV.Size = new System.Drawing.Size(122, 164);
-            this.pictureBoxAva_VMV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAva_VMV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAva_VMV.TabIndex = 1;
             this.pictureBoxAva_VMV.TabStop = false;
             // 
