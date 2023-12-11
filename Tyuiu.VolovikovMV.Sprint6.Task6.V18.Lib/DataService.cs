@@ -30,5 +30,10 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18.Lib
                 return strLine.Trim();
             }
         }
+
+        public string CollectTextFromFile(string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -30,11 +30,9 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.buttonHelp_VMV = new System.Windows.Forms.Button();
             this.openFileDialogTask_VMV = new System.Windows.Forms.OpenFileDialog();
             this.toolTip_VMV = new System.Windows.Forms.ToolTip(this.components);
-            this.buttonDone_VMV = new System.Windows.Forms.Button();
             this.textBoxData_VMV = new System.Windows.Forms.TextBox();
             this.groupBoxTask_VMV = new System.Windows.Forms.GroupBox();
             this.textBoxLoadFromFile_VMV = new System.Windows.Forms.TextBox();
@@ -42,6 +40,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             this.textBoxResult_VMV = new System.Windows.Forms.TextBox();
             this.groupBoxOutput_VMV = new System.Windows.Forms.GroupBox();
             this.buttonFile_VMV = new System.Windows.Forms.Button();
+            this.buttonDone_VMV = new System.Windows.Forms.Button();
             this.groupBoxTask_VMV.SuspendLayout();
             this.groupBoxInput_VMV.SuspendLayout();
             this.groupBoxOutput_VMV.SuspendLayout();
@@ -51,7 +50,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // 
             this.buttonHelp_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonHelp_VMV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp_VMV.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_VMV.Image")));
+            this.buttonHelp_VMV.Image = global::Tyuiu.VolovikovMV.Sprint6.Task6.V18.Properties.Resources.Снимок_экрана_2023_12_11_184517;
             this.buttonHelp_VMV.Location = new System.Drawing.Point(785, 5);
             this.buttonHelp_VMV.Margin = new System.Windows.Forms.Padding(0);
             this.buttonHelp_VMV.Name = "buttonHelp_VMV";
@@ -70,24 +69,9 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             this.toolTip_VMV.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip_VMV.ToolTipTitle = "Подсказка";
             // 
-            // buttonDone_VMV
-            // 
-            this.buttonDone_VMV.BackColor = System.Drawing.SystemColors.Control;
-            this.buttonDone_VMV.Enabled = false;
-            this.buttonDone_VMV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDone_VMV.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_VMV.Image")));
-            this.buttonDone_VMV.Location = new System.Drawing.Point(101, 5);
-            this.buttonDone_VMV.Margin = new System.Windows.Forms.Padding(0);
-            this.buttonDone_VMV.Name = "buttonDone_VMV";
-            this.buttonDone_VMV.Size = new System.Drawing.Size(90, 50);
-            this.buttonDone_VMV.TabIndex = 26;
-            this.toolTip_VMV.SetToolTip(this.buttonDone_VMV, "Выводит слова в которых встречается n.");
-            this.buttonDone_VMV.UseVisualStyleBackColor = false;
-            this.buttonDone_VMV.Click += new System.EventHandler(this.buttonDone_VMV_Click);
-            // 
             // textBoxData_VMV
             // 
-            this.textBoxData_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBoxData_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxData_VMV.BackColor = System.Drawing.SystemColors.Menu;
             this.textBoxData_VMV.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -96,11 +80,10 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             this.textBoxData_VMV.Name = "textBoxData_VMV";
             this.textBoxData_VMV.Size = new System.Drawing.Size(848, 59);
             this.textBoxData_VMV.TabIndex = 0;
-            this.textBoxData_VMV.Text = resources.GetString("textBoxData_VMV.Text");
             // 
             // groupBoxTask_VMV
             // 
-            this.groupBoxTask_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBoxTask_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxTask_VMV.Controls.Add(this.textBoxData_VMV);
             this.groupBoxTask_VMV.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -113,7 +96,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // 
             // textBoxLoadFromFile_VMV
             // 
-            this.textBoxLoadFromFile_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.textBoxLoadFromFile_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.textBoxLoadFromFile_VMV.Location = new System.Drawing.Point(12, 19);
             this.textBoxLoadFromFile_VMV.Multiline = true;
@@ -124,7 +107,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // 
             // groupBoxInput_VMV
             // 
-            this.groupBoxInput_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.groupBoxInput_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBoxInput_VMV.Controls.Add(this.textBoxLoadFromFile_VMV);
             this.groupBoxInput_VMV.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -137,8 +120,8 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // 
             // textBoxResult_VMV
             // 
-            this.textBoxResult_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.textBoxResult_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxResult_VMV.Location = new System.Drawing.Point(12, 19);
             this.textBoxResult_VMV.Multiline = true;
@@ -149,8 +132,8 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // 
             // groupBoxOutput_VMV
             // 
-            this.groupBoxOutput_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBoxOutput_VMV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxOutput_VMV.Controls.Add(this.textBoxResult_VMV);
             this.groupBoxOutput_VMV.Location = new System.Drawing.Point(444, 147);
@@ -163,7 +146,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             // buttonFile_VMV
             // 
             this.buttonFile_VMV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFile_VMV.Image = ((System.Drawing.Image)(resources.GetObject("buttonFile_VMV.Image")));
+            this.buttonFile_VMV.Image = global::Tyuiu.VolovikovMV.Sprint6.Task6.V18.Properties.Resources.Снимок_экрана_2023_12_11_184324;
             this.buttonFile_VMV.Location = new System.Drawing.Point(5, 5);
             this.buttonFile_VMV.Margin = new System.Windows.Forms.Padding(0);
             this.buttonFile_VMV.Name = "buttonFile_VMV";
@@ -172,6 +155,21 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task6.V18
             this.toolTip_VMV.SetToolTip(this.buttonFile_VMV, "Открыть файл\r\nВыберите нужный файл для обработки\r\n");
             this.buttonFile_VMV.UseVisualStyleBackColor = false;
             this.buttonFile_VMV.Click += new System.EventHandler(this.buttonFile_VMV_Click);
+            // 
+            // buttonDone_VMV
+            // 
+            this.buttonDone_VMV.BackColor = System.Drawing.SystemColors.Control;
+            this.buttonDone_VMV.Enabled = false;
+            this.buttonDone_VMV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDone_VMV.Image = global::Tyuiu.VolovikovMV.Sprint6.Task6.V18.Properties.Resources.Снимок_экрана_2023_12_11_184446;
+            this.buttonDone_VMV.Location = new System.Drawing.Point(101, 5);
+            this.buttonDone_VMV.Margin = new System.Windows.Forms.Padding(0);
+            this.buttonDone_VMV.Name = "buttonDone_VMV";
+            this.buttonDone_VMV.Size = new System.Drawing.Size(90, 50);
+            this.buttonDone_VMV.TabIndex = 26;
+            this.toolTip_VMV.SetToolTip(this.buttonDone_VMV, "Выводит слова в которых встречается n.");
+            this.buttonDone_VMV.UseVisualStyleBackColor = false;
+            this.buttonDone_VMV.Click += new System.EventHandler(this.buttonDone_VMV_Click);
             // 
             // FormMain
             // 

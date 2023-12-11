@@ -105,7 +105,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task5.V1
             this.textBoxTask_VMV.ReadOnly = true;
             this.textBoxTask_VMV.Size = new System.Drawing.Size(411, 61);
             this.textBoxTask_VMV.TabIndex = 0;
-            this.textBoxTask_VMV.Text = resources.GetString("textBoxTask_VMV.Text");
+            //this.textBoxTask_VMV.Text = resources.GetString("textBoxTask_VMV.Text");
             // 
             // groupBoxOutPutData_VMV
             // 

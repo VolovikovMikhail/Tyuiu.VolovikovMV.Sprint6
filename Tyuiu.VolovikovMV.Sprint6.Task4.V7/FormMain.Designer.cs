@@ -29,10 +29,9 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelTop_VMV = new System.Windows.Forms.Panel();
             this.buttonHelp_VMV = new System.Windows.Forms.Button();
             this.buttonSave_VMV = new System.Windows.Forms.Button();
@@ -43,17 +42,15 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             this.textBoxStop_VMV = new System.Windows.Forms.TextBox();
             this.textBoxStart_VMV = new System.Windows.Forms.TextBox();
             this.groupBoxTask_VMV = new System.Windows.Forms.GroupBox();
-            this.pictureBoxTask_VMV = new System.Windows.Forms.PictureBox();
-            this.textBoxTask_VMV = new System.Windows.Forms.TextBox();
             this.panelFill_VMV = new System.Windows.Forms.Panel();
             this.chartFunction_VMV = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panelLeft_VMV = new System.Windows.Forms.Panel();
             this.groupBoxOutPut_VMV = new System.Windows.Forms.GroupBox();
             this.textBoxResult_VMV = new System.Windows.Forms.TextBox();
+            this.textBoxTask_VMV = new System.Windows.Forms.TextBox();
             this.panelTop_VMV.SuspendLayout();
             this.groupBoxIntPut_VMV.SuspendLayout();
             this.groupBoxTask_VMV.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_VMV)).BeginInit();
             this.panelFill_VMV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_VMV)).BeginInit();
             this.panelLeft_VMV.SuspendLayout();
@@ -156,7 +153,6 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             // 
             // groupBoxTask_VMV
             // 
-            this.groupBoxTask_VMV.Controls.Add(this.pictureBoxTask_VMV);
             this.groupBoxTask_VMV.Controls.Add(this.textBoxTask_VMV);
             this.groupBoxTask_VMV.Location = new System.Drawing.Point(8, 8);
             this.groupBoxTask_VMV.Name = "groupBoxTask_VMV";
@@ -164,25 +160,6 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             this.groupBoxTask_VMV.TabIndex = 0;
             this.groupBoxTask_VMV.TabStop = false;
             this.groupBoxTask_VMV.Text = "Условие:";
-            // 
-            // pictureBoxTask_VMV
-            // 
-            this.pictureBoxTask_VMV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxTask_VMV.Image")));
-            this.pictureBoxTask_VMV.Location = new System.Drawing.Point(7, 59);
-            this.pictureBoxTask_VMV.Name = "pictureBoxTask_VMV";
-            this.pictureBoxTask_VMV.Size = new System.Drawing.Size(214, 35);
-            this.pictureBoxTask_VMV.TabIndex = 1;
-            this.pictureBoxTask_VMV.TabStop = false;
-            // 
-            // textBoxTask_VMV
-            // 
-            this.textBoxTask_VMV.Location = new System.Drawing.Point(7, 20);
-            this.textBoxTask_VMV.Multiline = true;
-            this.textBoxTask_VMV.Name = "textBoxTask_VMV";
-            this.textBoxTask_VMV.ReadOnly = true;
-            this.textBoxTask_VMV.Size = new System.Drawing.Size(295, 33);
-            this.textBoxTask_VMV.TabIndex = 0;
-            this.textBoxTask_VMV.Text = "Написать программу, которая выводит таблицу значений функции:";
             // 
             // panelFill_VMV
             // 
@@ -195,18 +172,18 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             // 
             // chartFunction_VMV
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_VMV.ChartAreas.Add(chartArea1);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction_VMV.ChartAreas.Add(chartArea3);
             this.chartFunction_VMV.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chartFunction_VMV.Legends.Add(legend1);
+            legend3.Name = "Legend1";
+            this.chartFunction_VMV.Legends.Add(legend3);
             this.chartFunction_VMV.Location = new System.Drawing.Point(0, 0);
             this.chartFunction_VMV.Name = "chartFunction_VMV";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_VMV.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction_VMV.Series.Add(series3);
             this.chartFunction_VMV.Size = new System.Drawing.Size(387, 424);
             this.chartFunction_VMV.TabIndex = 0;
             this.chartFunction_VMV.Text = "chart1";
@@ -243,6 +220,16 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             this.textBoxResult_VMV.Size = new System.Drawing.Size(204, 395);
             this.textBoxResult_VMV.TabIndex = 0;
             // 
+            // textBoxTask_VMV
+            // 
+            this.textBoxTask_VMV.Location = new System.Drawing.Point(7, 19);
+            this.textBoxTask_VMV.Multiline = true;
+            this.textBoxTask_VMV.Name = "textBoxTask_VMV";
+            this.textBoxTask_VMV.ReadOnly = true;
+            this.textBoxTask_VMV.Size = new System.Drawing.Size(295, 33);
+            this.textBoxTask_VMV.TabIndex = 0;
+            this.textBoxTask_VMV.Text = "Написать программу, которая выводит таблицу значений функции";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,7 +246,6 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
             this.groupBoxIntPut_VMV.PerformLayout();
             this.groupBoxTask_VMV.ResumeLayout(false);
             this.groupBoxTask_VMV.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_VMV)).EndInit();
             this.panelFill_VMV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_VMV)).EndInit();
             this.panelLeft_VMV.ResumeLayout(false);
@@ -269,9 +255,9 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
 
         }
 
-        private void chartFunction_VMV_Click(object sender, EventArgs e)
+        private void chartFunction_VMV_Click(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         #endregion
@@ -289,9 +275,8 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task4.V7
         private System.Windows.Forms.Label labelStart_VMV;
         private System.Windows.Forms.TextBox textBoxStop_VMV;
         private System.Windows.Forms.TextBox textBoxStart_VMV;
-        private System.Windows.Forms.PictureBox pictureBoxTask_VMV;
-        private System.Windows.Forms.TextBox textBoxTask_VMV;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction_VMV;
+        private System.Windows.Forms.TextBox textBoxTask_VMV;
     }
 }
 

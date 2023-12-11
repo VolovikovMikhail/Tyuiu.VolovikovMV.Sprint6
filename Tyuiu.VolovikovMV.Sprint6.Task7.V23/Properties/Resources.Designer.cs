@@ -73,6 +73,46 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task7.V23.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_11_184324 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-11 184324", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_11_184446 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-11 184446", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_11_184517 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-11 184517", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2023_12_11_184907 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2023-12-11 184907", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ящясубьювсех_папич {
             get {
                 object obj = ResourceManager.GetObject("ящясубьювсех-папич", resourceCulture);

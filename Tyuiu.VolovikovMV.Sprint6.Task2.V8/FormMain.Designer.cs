@@ -29,10 +29,9 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxOutPut = new System.Windows.Forms.GroupBox();
             this.dataGridViewResult = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,14 +46,12 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             this.labelStart = new System.Windows.Forms.Label();
             this.groupBoxTask = new System.Windows.Forms.GroupBox();
             this.labelTask2 = new System.Windows.Forms.Label();
-            this.pictureBoxTask = new System.Windows.Forms.PictureBox();
             this.labelTask = new System.Windows.Forms.Label();
             this.chartResult = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBoxOutPut.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult)).BeginInit();
             this.groupBoxInPut.SuspendLayout();
             this.groupBoxTask.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,9 +59,11 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             // 
             this.groupBoxOutPut.Controls.Add(this.dataGridViewResult);
             this.groupBoxOutPut.Controls.Add(this.labelResult);
-            this.groupBoxOutPut.Location = new System.Drawing.Point(545, 7);
+            this.groupBoxOutPut.Location = new System.Drawing.Point(409, 6);
+            this.groupBoxOutPut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxOutPut.Name = "groupBoxOutPut";
-            this.groupBoxOutPut.Size = new System.Drawing.Size(149, 437);
+            this.groupBoxOutPut.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxOutPut.Size = new System.Drawing.Size(112, 355);
             this.groupBoxOutPut.TabIndex = 14;
             this.groupBoxOutPut.TabStop = false;
             this.groupBoxOutPut.Text = "Вывод данных";
@@ -75,12 +74,13 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             this.dataGridViewResult.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridViewResult.Location = new System.Drawing.Point(0, 38);
+            this.dataGridViewResult.Location = new System.Drawing.Point(0, 31);
+            this.dataGridViewResult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewResult.Name = "dataGridViewResult";
             this.dataGridViewResult.RowHeadersVisible = false;
             this.dataGridViewResult.RowHeadersWidth = 51;
             this.dataGridViewResult.RowTemplate.Height = 24;
-            this.dataGridViewResult.Size = new System.Drawing.Size(149, 393);
+            this.dataGridViewResult.Size = new System.Drawing.Size(112, 319);
             this.dataGridViewResult.TabIndex = 1;
             this.dataGridViewResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -101,17 +101,19 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             // labelResult
             // 
             this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(6, 18);
+            this.labelResult.Location = new System.Drawing.Point(4, 15);
+            this.labelResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(76, 17);
+            this.labelResult.Size = new System.Drawing.Size(59, 13);
             this.labelResult.TabIndex = 0;
             this.labelResult.Text = "Результат";
             // 
             // buttonInfo
             // 
-            this.buttonInfo.Location = new System.Drawing.Point(293, 319);
+            this.buttonInfo.Location = new System.Drawing.Point(220, 259);
+            this.buttonInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonInfo.Name = "buttonInfo";
-            this.buttonInfo.Size = new System.Drawing.Size(121, 125);
+            this.buttonInfo.Size = new System.Drawing.Size(91, 102);
             this.buttonInfo.TabIndex = 13;
             this.buttonInfo.Text = "Справка";
             this.buttonInfo.UseVisualStyleBackColor = true;
@@ -119,9 +121,10 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             // 
             // buttonDone
             // 
-            this.buttonDone.Location = new System.Drawing.Point(418, 319);
+            this.buttonDone.Location = new System.Drawing.Point(314, 259);
+            this.buttonDone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDone.Name = "buttonDone";
-            this.buttonDone.Size = new System.Drawing.Size(121, 125);
+            this.buttonDone.Size = new System.Drawing.Size(91, 102);
             this.buttonDone.TabIndex = 12;
             this.buttonDone.Text = "Выполнить";
             this.buttonDone.UseVisualStyleBackColor = true;
@@ -136,53 +139,60 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             this.groupBoxInPut.Controls.Add(this.textBoxStart);
             this.groupBoxInPut.Controls.Add(this.labelStop);
             this.groupBoxInPut.Controls.Add(this.labelStart);
-            this.groupBoxInPut.Location = new System.Drawing.Point(7, 319);
+            this.groupBoxInPut.Location = new System.Drawing.Point(5, 259);
+            this.groupBoxInPut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxInPut.Name = "groupBoxInPut";
-            this.groupBoxInPut.Size = new System.Drawing.Size(280, 125);
+            this.groupBoxInPut.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxInPut.Size = new System.Drawing.Size(210, 102);
             this.groupBoxInPut.TabIndex = 11;
             this.groupBoxInPut.TabStop = false;
             this.groupBoxInPut.Text = "Ввод данных";
             // 
             // textBoxStop
             // 
-            this.textBoxStop.Location = new System.Drawing.Point(108, 38);
+            this.textBoxStop.Location = new System.Drawing.Point(81, 31);
+            this.textBoxStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxStop.Name = "textBoxStop";
-            this.textBoxStop.Size = new System.Drawing.Size(100, 22);
+            this.textBoxStop.Size = new System.Drawing.Size(76, 20);
             this.textBoxStop.TabIndex = 3;
             // 
             // textBoxStart
             // 
-            this.textBoxStart.Location = new System.Drawing.Point(9, 38);
+            this.textBoxStart.Location = new System.Drawing.Point(7, 31);
+            this.textBoxStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxStart.Name = "textBoxStart";
-            this.textBoxStart.Size = new System.Drawing.Size(93, 22);
+            this.textBoxStart.Size = new System.Drawing.Size(71, 20);
             this.textBoxStart.TabIndex = 2;
             // 
             // labelStop
             // 
             this.labelStop.AutoSize = true;
-            this.labelStop.Location = new System.Drawing.Point(105, 18);
+            this.labelStop.Location = new System.Drawing.Point(79, 15);
+            this.labelStop.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelStop.Name = "labelStop";
-            this.labelStop.Size = new System.Drawing.Size(85, 17);
+            this.labelStop.Size = new System.Drawing.Size(66, 13);
             this.labelStop.TabIndex = 1;
             this.labelStop.Text = "Конец шага";
             // 
             // labelStart
             // 
             this.labelStart.AutoSize = true;
-            this.labelStart.Location = new System.Drawing.Point(6, 18);
+            this.labelStart.Location = new System.Drawing.Point(4, 15);
+            this.labelStart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelStart.Name = "labelStart";
-            this.labelStart.Size = new System.Drawing.Size(83, 17);
+            this.labelStart.Size = new System.Drawing.Size(64, 13);
             this.labelStart.TabIndex = 0;
             this.labelStart.Text = "Старт шага";
             // 
             // groupBoxTask
             // 
             this.groupBoxTask.Controls.Add(this.labelTask2);
-            this.groupBoxTask.Controls.Add(this.pictureBoxTask);
             this.groupBoxTask.Controls.Add(this.labelTask);
-            this.groupBoxTask.Location = new System.Drawing.Point(7, 7);
+            this.groupBoxTask.Location = new System.Drawing.Point(5, 6);
+            this.groupBoxTask.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxTask.Name = "groupBoxTask";
-            this.groupBoxTask.Size = new System.Drawing.Size(532, 306);
+            this.groupBoxTask.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxTask.Size = new System.Drawing.Size(399, 249);
             this.groupBoxTask.TabIndex = 10;
             this.groupBoxTask.TabStop = false;
             this.groupBoxTask.Text = "Условие";
@@ -190,55 +200,48 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             // labelTask2
             // 
             this.labelTask2.AutoSize = true;
-            this.labelTask2.Location = new System.Drawing.Point(6, 100);
+            this.labelTask2.Location = new System.Drawing.Point(4, 35);
+            this.labelTask2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTask2.Name = "labelTask2";
-            this.labelTask2.Size = new System.Drawing.Size(420, 17);
+            this.labelTask2.Size = new System.Drawing.Size(324, 13);
             this.labelTask2.TabIndex = 2;
             this.labelTask2.Text = "произвести табулирование на заданном диапазоне с шагом 1";
-            // 
-            // pictureBoxTask
-            // 
-            this.pictureBoxTask.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxTask.Image")));
-            this.pictureBoxTask.Location = new System.Drawing.Point(9, 47);
-            this.pictureBoxTask.Name = "pictureBoxTask";
-            this.pictureBoxTask.Size = new System.Drawing.Size(366, 47);
-            this.pictureBoxTask.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxTask.TabIndex = 1;
-            this.pictureBoxTask.TabStop = false;
             // 
             // labelTask
             // 
             this.labelTask.AutoSize = true;
-            this.labelTask.Location = new System.Drawing.Point(6, 27);
+            this.labelTask.Location = new System.Drawing.Point(4, 22);
+            this.labelTask.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTask.Name = "labelTask";
-            this.labelTask.Size = new System.Drawing.Size(511, 17);
+            this.labelTask.Size = new System.Drawing.Size(390, 13);
             this.labelTask.TabIndex = 0;
-            this.labelTask.Text = "Написать программу которая выводит выводит таблицу значений функции:";
+            this.labelTask.Text = "Написать программу которая выводит выводит таблицу значений функции";
             // 
             // chartResult
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartResult.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chartResult.Legends.Add(legend1);
-            this.chartResult.Location = new System.Drawing.Point(700, 13);
+            chartArea2.Name = "ChartArea1";
+            this.chartResult.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chartResult.Legends.Add(legend2);
+            this.chartResult.Location = new System.Drawing.Point(525, 11);
+            this.chartResult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chartResult.Name = "chartResult";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartResult.Series.Add(series1);
-            this.chartResult.Size = new System.Drawing.Size(625, 425);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartResult.Series.Add(series2);
+            this.chartResult.Size = new System.Drawing.Size(469, 345);
             this.chartResult.TabIndex = 15;
             this.chartResult.Text = "chartResult";
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1337, 450);
+            this.ClientSize = new System.Drawing.Size(1003, 366);
             this.Controls.Add(this.chartResult);
             this.Controls.Add(this.groupBoxOutPut);
             this.Controls.Add(this.buttonInfo);
@@ -246,6 +249,7 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             this.Controls.Add(this.groupBoxInPut);
             this.Controls.Add(this.groupBoxTask);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "Спринт 6 | Таск 2 | Вариант 8 | Воловиков Михаил Васильевич";
@@ -256,7 +260,6 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
             this.groupBoxInPut.PerformLayout();
             this.groupBoxTask.ResumeLayout(false);
             this.groupBoxTask.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult)).EndInit();
             this.ResumeLayout(false);
 
@@ -275,7 +278,6 @@ namespace Tyuiu.VolovikovMV.Sprint6.Task2.V8
         private System.Windows.Forms.Label labelStart;
         private System.Windows.Forms.GroupBox groupBoxTask;
         private System.Windows.Forms.Label labelTask2;
-        private System.Windows.Forms.PictureBox pictureBoxTask;
         private System.Windows.Forms.Label labelTask;
         private System.Windows.Forms.DataGridView dataGridViewResult;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
